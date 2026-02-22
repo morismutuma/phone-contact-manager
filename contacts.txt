@@ -1,0 +1,3 @@
+1|Moris Mutuma|0712345678|moris11094@student.mmarau.ac.ke|Family
+2|Lizbeth Kageni|0787654321|liz@gmail.com|Friend
+3|Eduat Ediii|0718234567|eduat1@gmail.com|Emergency
