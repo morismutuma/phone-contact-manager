@@ -27,16 +27,16 @@ Python is a high-level, interpreted programming language created by Guido van Ro
 
 ## 3. System Requirements
 
-| Requirement | Specification |
-|-------------|---------------|
-| **OS** | Linux (Kali), macOS, or Windows |
-| **Python Version** | Python 3.8 or higher |
-| **Editor** | VS Code (pre-installed on Kali) |
-| **Package Manager** | pip (comes with Python) |
+| Requirement         | Specification                   |
+|-------------        |---------------                  |
+| **OS**              | Linux (Kali), macOS, or Windows |
+| **Python Version**  | Python 3.8 or higher            |
+| **Editor**          | VS Code (pre-installed on Kali) |
+| **Package Manager** | pip (comes with Python)         |
 
 **Verify Installation:**
-```bash
-python3 --version ```
+```bash```
+```python3 --version ```
 
 4. Installation & Setup Instructions
 Step 1: Navigate to Project Directory
@@ -55,15 +55,15 @@ Step 4: Run the Application
 What it does: A CLI phonebook with full CRUD functionality - add, view, search, edit, delete contacts with data persistence to file.
 📸 Screenshots
 
-| Feature                  | Screenshot                                                                                                                           |
-| -------------         | --------------------------------------------------------------------------------------
-| Main Menu          | ![Menu](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/menu1.png)             |
-| Add Contact       | ![Add](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/addcontact1.png)        |
-| View Contacts   | ![View](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/viewcontact.png)       |
-| Search                    | ![Search](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/contactsearched.png) |
-| Edit                          | ![Edit](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/contactedited.png)     |
-| Delete                    | ![Delete](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/contactdeleted.png)  |
-| Statistics               | ![Stats](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/statistics.png)       |
+| Feature             | Screenshot                                                                                                          |
+| -------------       | --------------------------------------------------------------------------------------                              |
+| Main Menu           | ![Menu](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/menu1.png)             |
+| Add Contact         | ![Add](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/addcontact1.png)        |
+| View Contacts       | ![View](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/viewcontact.png)       |
+| Search              | ![Search](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/contactsearched.png) |
+| Edit                | ![Edit](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/contactedited.png)     |
+| Delete              | ![Delete](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/contactdeleted.png)  |
+| Statistics          | ![Stats](https://raw.githubusercontent.com/morismutuma/phone-contact-manager/main/screenshots/statistics.png)       |
 
 
 File Structure
@@ -84,8 +84,8 @@ phone-contact-manager/
 
 Run Instructions
 
-  ```source venv/bin/activate
-         python3 phonebook.py ```
+  ```source venv/bin/activate ```
+      ```python3 phonebook.py ```
 
 Sample Session:
 
@@ -128,14 +128,14 @@ Key Learning: AI accelerated development by providing targeted solutions instead
 
 7. Common Issues & Fixes
 
-| Issue                                                       | Error/Symptom                                      | Solution                                       |
-| ------------------------------      | -----------------------------               | ---------------------------------------------------------------------- |
-| **Permission Denied**              | `PermissionError: [Errno 13]`      | Use `python3 phonebook.py` instead of `./phonebook.py`         |
-| **Python not found**                  | `command not found: python`   | Use `python3` explicitly (Kali default)                                                        |
-| **Virtual env not activating**  | `source: not found`                           | Run `bash` first, or use `. venv/bin/activate`                         |       
-| **Search finds nothing**           | No results displayed                          | Check spelling - search is case-insensitive but checks exact substring |
-| **Cannot edit contact**             | "Contact not found"                           | View contacts first to get correct ID number                              |
-| **Phone validation fails**         | "Invalid phone number"                  | Remove spaces/dashes - digits only, minimum 10 characters              |
+| Issue                                 | Error/Symptom                             | Solution                                                               |
+| ------------------------------     | -----------------------------                | ---------------------------------------------------------------------- |
+| **Permission Denied**              | `PermissionError: [Errno 13]`                | Use `python3 phonebook.py` instead of `./phonebook.py`                 |
+| **Python not found**               | `command not found: python`                  | Use `python3` explicitly (Kali default)                                                        |
+| **Virtual env not activating**     | `source: not found`                          | Run `bash` first, or use `. venv/bin/activate`                         |       
+| **Search finds nothing**           | No results displayed                         | Check spelling - search is case-insensitive but checks exact substring |
+| **Cannot edit contact**            | "Contact not found"                          | View contacts first to get correct ID number                           |
+| **Phone validation fails**         | "Invalid phone number"                       | Remove spaces/dashes - digits only, minimum 10 characters              |
 
 Kali Linux Specific:
 
@@ -143,8 +143,8 @@ Kali Linux Specific:
  ```python3 phonebook.py```
 
 # Or create alias in ~/.bashrc:
- ```echo "alias python=python3" >> ~/.bashrc
-         source ~/.bashrc ```
+ ```echo "alias python=python3" >> ~/.bashrc```
+         ```source ~/.bashrc ```
 
 
 8. References
